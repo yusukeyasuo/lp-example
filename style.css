@@ -1,0 +1,137 @@
+.small-text {
+  font-size: 0.7em;
+	position: absolute;
+	bottom: 10px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.btn-danger {
+  background-color: #da6b64;
+}
+
+.btn-lg {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.cover-img {
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/main.jpg);
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.txtl {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.txtm {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.mainlogo {
+  width: 317px;
+  margin-bottom: 20px;
+}
+
+.conversion {
+  background-color: #ebb94d;
+  color: #fff;
+}
+
+.contactform {
+  background-color: #ebb94d;
+}
+
+.introduction {
+  background: url(https://isara.life/wp-content/themes/isara_v2/img/introbottom.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.p-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.p-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+code {
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+  padding: 0 5px;
+}
+
+.yellowbracketswide {
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.yellowbracketswide::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+}
+
+.yellowbracketswide::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+}
+
+.yellowbracketswide::before, .yellowbracketswide::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.contents {
+  font-weight: normal;
+}
+
+.underline {
+  font-weight: bold;
+  background: linear-gradient(transparent 70%, #ebb94d 70%);
+}
+
+.form {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.pagetop {
+  cursor: pointer;
+  position: fixed;
+  bottom: 90px;
+  right: 50px;
+  background-color: #ececec;
+  padding: 20px;
+}
